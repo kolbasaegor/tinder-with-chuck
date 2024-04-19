@@ -47,6 +47,6 @@ Swipe left
 
 ## APK
 
-To download and test app, here is apk: [app-release.apk](build/app/outputs/flutter-apk/app-release.apk)
+To download and test app, here is apk: [app-release.apk](app-release.apk)
 
 
