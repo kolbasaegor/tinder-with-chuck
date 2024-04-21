@@ -1,17 +1,17 @@
-# Tinder with Chuck
+# Tinder with Chuck v2
 
 Flutter project for 2nd retake. Assignment 1
 
 ## Description
 
-The application shows cards with jokes about Chuck Norris with a picture (random). There are buttons to update the card: like and dislike. You can also swipe the cards to the right and left.
+The application where there are cards with jokes about Chuck Norris and pictures.  The cards can be swiped left, right and up (super like). Swipe up adds a joke to your favorite jokes.
 
 ## Screenshots
 
 Loading screen
 
 <img
-    src="screenshots/fas1.jpg"
+    src="screenshots/tc1.jpg"
     alt="drawing"
     height="400"
 />
@@ -19,28 +19,49 @@ Loading screen
 Cards with joke
 
 <img
-    src="screenshots/fas2.jpg"
+    src="screenshots/tc2.jpg"
     alt="drawing"
     height="400"
 />
 <img
-    src="screenshots/fas3.jpg"
+    src="screenshots/tc3.jpg"
     alt="drawing"
     height="400"
 />
 
-Swipe right
+Swipe Up
 
 <img
-    src="screenshots/fas4.jpg"
+    src="screenshots/tc4.jpg"
     alt="drawing"
     height="400"
 />
 
-Swipe left
+Swipe Right
 
 <img
-    src="screenshots/fas5.jpg"
+    src="screenshots/tc5.jpg"
+    alt="drawing"
+    height="400"
+/>
+
+Swipe Left
+
+<img
+    src="screenshots/tc6.jpg"
+    alt="drawing"
+    height="400"
+/>
+
+Favourites jokes. On the right there is a button to remove all jokes from favorites
+
+<img
+    src="screenshots/tc7.jpg"
+    alt="drawing"
+    height="400"
+/>
+<img
+    src="screenshots/tc8.jpg"
     alt="drawing"
     height="400"
 />

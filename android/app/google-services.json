@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135025565375",
+    "project_id": "tinder-with-chuck-flutter",
+    "storage_bucket": "tinder-with-chuck-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135025565375:android:734e8b12bc4496a6e8b00a",
+        "android_client_info": {
+          "package_name": "com.example.tinder_with_chuck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMFw_sGdgkB38Im4mIf9l9coxKSMGE9Z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

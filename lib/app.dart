@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tinder_with_chuck/features/home_page.dart';
+import 'package:tinder_with_chuck/screens/favourite_jokes_page.dart';
+import 'package:tinder_with_chuck/screens/home_page.dart';
 
 class TinderWithChuckApp extends StatelessWidget {
   const TinderWithChuckApp({super.key});
@@ -7,19 +8,23 @@ class TinderWithChuckApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Tinder with Chuck App",
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.white,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         appBarTheme: const AppBarTheme(
-          titleTextStyle: TextStyle(
-              color: Colors.white, fontWeight: FontWeight.bold, fontSize: 22),
-          backgroundColor: Color.fromARGB(255, 19, 49, 66),
+          titleTextStyle: TextStyle(color: Colors.white, fontSize: 20),
+          backgroundColor: Colors.deepPurple,
+          iconTheme: IconThemeData(
+            color: Colors.white, //change your color here
+          ),
         ),
         useMaterial3: true,
       ),
-      home: const HomePage(
-        title: "Tinder with Chuck",
-      ),
+      routes: {
+        '/': (context) => const HomePage(),
+        '/fav': (context) => const FavouriteJokesScreen()
+      },
     );
   }
 }
